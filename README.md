@@ -9,9 +9,9 @@ Note that, since we use C++, enumeration starts from zero!
 
 For instance, a file for the following graph:
 
-# 1----0
-# |    | 
-# 3----2---4
+1----0
+|    | 
+3----2---4
 
 where: 
 vertex 0 cover points of indices 0,1,2
