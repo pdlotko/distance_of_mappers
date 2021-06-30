@@ -9,9 +9,9 @@ Note that, since we use C++, enumeration starts from zero!
 
 For instance, a file for the following graph:
 
-1----0
-|    | 
-3----2---4
+1----0  
+|    |  
+3----2---4  
 
 where: 
 vertex 0 cover points of indices 0,1,2
@@ -21,17 +21,17 @@ vertex 3 cover points of indices 1,2,3
 vertex 4 cover points of indices 2,4
 
 the corresponding file is:
-5
-0 1 2 
-0 1 3
-0 2 3 4
-1 2 3
-2 4
-0 1
-0 2
-1 3
-2 3 
-2 4
+5  
+0 1 2   
+0 1 3  
+0 2 3 4  
+1 2 3  
+2 4  
+0 1  
+0 2  
+1 3  
+2 3   
+2 4  
 
 (please note that we only require integer ids of points, we do not care what the points really are).
 
